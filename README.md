@@ -50,14 +50,14 @@ Since either YES or NO must happen, you get $1 back no matter what.
 git clone https://github.com/AlexM800/poly-kalshi-arb.git
 cd poly-kalshi-arb
 
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -e .
 
 cp .env.example .env
 # Edit .env with your API credentials
 
-python -m src.main
+python3 -m src.main
 ```
 
 ## Configuration
